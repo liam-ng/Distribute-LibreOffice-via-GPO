@@ -29,7 +29,7 @@ Hopefully it will help others to deploy LibreOffice via GPO in the future.
 20. **Important** Select Advanced, it may take a minute to finish
 21. Double-click the LibreOffice to open the Properties window
 22. Under Modifications tab, add the tramsform file .mst from shared folder
-23. (Optional) Add the following 2 GPO to ensure succuessful installation
+23. (Optional) Add the following 2 configurations in the same / separate GPO to ensure succuessful installation
     -	Under Computer Configuration > Policies > Administrative Templates > System
 	- 	Inside `Group Policy`: `Always wait for the network at computer startup and logon` = Enabled
 	-	Inside `Logon`: `Specify startup policy processing wait time. Set Amount of time to wait (in seconds)` = 30
